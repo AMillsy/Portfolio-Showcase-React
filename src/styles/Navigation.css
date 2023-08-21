@@ -1,3 +1,7 @@
+:root {
+  --btn-colour: white;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -12,4 +16,21 @@
 .nav-list li {
   list-style-type: none;
   margin: 20px;
+}
+
+.nav-list li a {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.nav-list li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:-webkit-any-link {
+  color: white;
 }
