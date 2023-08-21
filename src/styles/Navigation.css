@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  list-style-type: none;
+  margin: 20px;
+}
