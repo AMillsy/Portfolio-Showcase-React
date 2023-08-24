@@ -1,9 +1,9 @@
-import "./App.css";
 import "./styles/Styles.css";
-import Navigation from "./components/Navigation";
+
+import Layout from "./pages/Layout";
 
 function App() {
-  return <Navigation />;
+  return <Layout></Layout>;
 }
 
 export default App;

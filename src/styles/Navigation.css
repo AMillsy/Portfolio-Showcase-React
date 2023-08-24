@@ -5,27 +5,32 @@
 .nav {
   display: flex;
   flex-direction: column;
+  background-color: darkslategrey;
+  padding: 20px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  width: 30%;
 }
 
 .nav-list li {
   list-style-type: none;
-  margin: 20px;
+  border-right: 1px solid black;
 }
 
 .nav-list li a {
   padding: 10px;
-  background-color: darkblue;
+  font-weight: bolder;
   color: white;
   text-decoration: none;
-  border-radius: 1rem;
 }
 
+.nav-list li:last-child {
+  border-right: 0;
+}
 .nav-list li a:visited {
   text-decoration: none;
   color: white;

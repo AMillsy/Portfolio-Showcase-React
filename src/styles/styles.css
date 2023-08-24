@@ -4,3 +4,7 @@ a {
 a:visited {
   text-decoration: none;
 }
+
+footer {
+  color: darkslategrey;
+}
