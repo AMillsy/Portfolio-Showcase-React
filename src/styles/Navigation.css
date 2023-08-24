@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato&family=Libre+Baskerville&family=Pacifico&family=Rubik+Iso&family=Shadows+Into+Light&display=swap");
+
 :root {
   --btn-colour: white;
 }
@@ -7,13 +9,16 @@
   flex-direction: column;
   background-color: darkslategrey;
   padding: 20px;
+  position: relative;
 }
 
 .nav-list {
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 30%;
+  flex-wrap: wrap;
+  width: 40%;
 }
 
 .nav-list li {
@@ -26,6 +31,7 @@
   font-weight: bolder;
   color: white;
   text-decoration: none;
+  font-size: 125%;
 }
 
 .nav-list li:last-child {
@@ -38,4 +44,24 @@
 
 a:-webkit-any-link {
   color: white;
+}
+
+.socials {
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+
+h1 {
+  color: white;
+  margin: 0px;
+  padding: 0;
+  font-size: 250%;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lastName {
+  padding-left: 97px;
 }

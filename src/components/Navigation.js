@@ -1,15 +1,22 @@
 import "../styles/Navigation.css";
 import SocialLink from "./SocialLink";
 import twitter from "../images/twitter.png";
+import linkedIn from "../images/linkedIn.png";
 const Navigation = () => {
   return (
     <header className="nav">
-      <div>
+      <h1>ADAM</h1>
+      <h1 className="lastName">MILLS</h1>
+      <div className="socials">
         <SocialLink
           anchorLink={"https://twitter.com/home"}
           src={twitter}
           name={"Twitter logo"}
-          className="twitterlogo"
+        />
+        <SocialLink
+          anchorLink={"https://www.linkedin.com/in/adam-mills-74274a198/"}
+          src={linkedIn}
+          name={"LinkedIn Logo"}
         />
       </div>
       <nav>
