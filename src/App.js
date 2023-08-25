@@ -3,7 +3,8 @@ import Layout from "./pages/Layout";
 import Splitter from "./components/Splitter";
 import portfolioImage1 from "./images/portfolioSplit1.png";
 import portfolioImage2 from "./images/portfolioSplit2.png";
-
+import resumeSplit1 from "./images/resumeSplit1.png";
+import resumeSplit2 from "./images/resumeSplit2.png";
 function App() {
   const splitters = [
     {
@@ -14,13 +15,13 @@ function App() {
     },
     {
       name: "Resume",
-      backgroundColour: "#210124",
-      splitImage1: portfolioImage1,
-      splitImage2: portfolioImage2,
+      backgroundColour: "#CDC392",
+      splitImage1: resumeSplit1,
+      splitImage2: resumeSplit2,
     },
     {
       name: "Contacts",
-      backgroundColour: "#210124",
+      backgroundColour: "#648DE5",
       splitImage1: portfolioImage1,
       splitImage2: portfolioImage2,
     },
