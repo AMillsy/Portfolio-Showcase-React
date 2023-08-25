@@ -9,7 +9,6 @@ const Splitter = ({
 }) => {
   function displayCorrectSection() {
     const sectionType = currentSection % 2;
-    console.log(sectionType);
     if (sectionType === 0) {
       return (
         <>
@@ -28,11 +27,13 @@ const Splitter = ({
               src={splitImage1}
               className="splitterImage"
               style={{ borderTopRightRadius: "2rem" }}
+              alt=""
             ></img>
             <img
               src={[splitImage2]}
               className="splitterImageHover"
               style={{ borderTopRightRadius: "2rem" }}
+              alt=""
             ></img>
           </div>
         </>
@@ -46,11 +47,13 @@ const Splitter = ({
             src={splitImage1}
             className="splitterImage"
             style={{ borderTopLeftRadius: "2rem" }}
+            alt=""
           ></img>
           <img
             src={[splitImage2]}
             className="splitterImageHover"
             style={{ borderTopLeftRadius: "2rem" }}
+            alt=""
           ></img>
         </div>
         <div

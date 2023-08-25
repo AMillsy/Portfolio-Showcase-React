@@ -2,7 +2,7 @@ import "../styles/Navigation.css";
 import SocialLink from "./SocialLink";
 import twitter from "../images/twitter.png";
 import linkedIn from "../images/linkedIn.png";
-const Navigation = () => {
+const Navigation = ({ setPage }) => {
   return (
     <header className="nav">
       <h1>ADAM</h1>
@@ -21,20 +21,30 @@ const Navigation = () => {
       </div>
       <nav>
         <ul className="nav-list">
-          <li>
-            <a href="#home">Home</a>
+          <li key={"home"}>
+            <a href="#home" onClick={() => setPage("Home")}>
+              Home
+            </a>
           </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
+          <li key={"portfolio"}>
+            <a href="#portfolio" onClick={() => setPage("Portfolio")}>
+              Portfolio
+            </a>
           </li>
-          <li>
-            <a href="#resume">Resume</a>
+          <li key={"resume"}>
+            <a href="#resume" onClick={() => setPage("Resume")}>
+              Resume
+            </a>
           </li>
-          <li>
-            <a href="#contact">Contacts</a>
+          <li key={"contact"}>
+            <a href="#contact" onClick={() => setPage("Contacts")}>
+              Contacts
+            </a>
           </li>
-          <li>
-            <a href="#about-me">About Me</a>
+          <li key={"about-me"}>
+            <a href="#about-me" onClick={() => setPage("About me")}>
+              About Me
+            </a>
           </li>
         </ul>
       </nav>
