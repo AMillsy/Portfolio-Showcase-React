@@ -45,6 +45,7 @@
   transition: all 0.2s ease-in-out;
   transform-origin: 0% 50%;
   object-position: left center;
+  object-fit: cover;
 }
 
 .splitter:hover .splitterImage {
@@ -60,6 +61,7 @@
   transition: all 0.2s ease-in-out;
   transform-origin: 100% 50%;
   object-position: left center;
+  object-fit: cover;
 }
 
 .splitter:hover .splitterImageHover {
