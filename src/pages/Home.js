@@ -8,7 +8,7 @@ import contactSplit2 from "../images/contactSplit2.jpg";
 import aboutMeSplit1 from "../images/aboutMe1.jpg";
 import aboutMeSplit2 from "../images/aboutMe2.jpg";
 
-const Home = () => {
+const Home = ({ setPage }) => {
   const splitters = [
     {
       name: "Portfolio",
@@ -47,6 +47,7 @@ const Home = () => {
               splitImage1={splitImage1}
               splitImage2={splitImage2}
               currentSection={i}
+              setPage={setPage}
             />
           );
         }

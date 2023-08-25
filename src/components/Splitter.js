@@ -6,6 +6,7 @@ const Splitter = ({
   splitImage1,
   splitImage2,
   currentSection,
+  setPage,
 }) => {
   function displayCorrectSection() {
     const sectionType = currentSection % 2;
@@ -67,7 +68,11 @@ const Splitter = ({
     );
   }
 
-  return <section className="splitter">{displayCorrectSection()}</section>;
+  return (
+    <a className="splitter" onClick={() => setPage(name)} href={`#${name}`}>
+      {displayCorrectSection()}
+    </a>
+  );
 };
 
 export default Splitter;

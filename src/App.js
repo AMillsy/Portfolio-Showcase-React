@@ -14,7 +14,7 @@ function App() {
   function displayCurrentPage() {
     switch (currentPage) {
       case "Home":
-        return <Home />;
+        return <Home setPage={setNewPage} />;
 
       case "Portfolio":
         return; //Portfolio page
