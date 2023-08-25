@@ -3,6 +3,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 
 import { useState } from "react";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   const [currentPage, setPage] = useState("Home");
@@ -17,7 +18,7 @@ function App() {
         return <Home setPage={setNewPage} />;
 
       case "Portfolio":
-        return; //Portfolio page
+        return <Portfolio />;
 
       case "Resume":
         return; //Resume Page
