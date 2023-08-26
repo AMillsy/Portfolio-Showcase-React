@@ -53,7 +53,20 @@ const Portfolio = () => {
 
   return (
     <>
-      <h2>Projects</h2>
+      <div style={{ display: "flex", margin: "20px" }}>
+        <h2
+          style={{
+            fontSize: "300%",
+            fontFamily: '"Libre Baskerville","serif"',
+            borderBottom: "2px solid black",
+            margin: "10px",
+            padding: "10px",
+            width: "100%",
+          }}
+        >
+          Projects
+        </h2>
+      </div>
       <section
         style={{
           display: "flex",

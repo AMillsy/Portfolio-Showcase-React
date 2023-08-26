@@ -1,0 +1,28 @@
+.resumeSection {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resumeList {
+  display: flex;
+  align-items: left;
+  width: 100%;
+  flex-direction: column;
+}
+
+.resumeList h3 {
+  font-size: 200%;
+}
+.resumeList li {
+  font-weight: bold;
+}
+
+.resumeTitle {
+  font-size: 300%;
+  font-family: "Libre Baskerville", serif;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
