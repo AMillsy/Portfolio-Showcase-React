@@ -2,6 +2,7 @@ import "../styles/Navigation.css";
 import SocialLink from "./SocialLink";
 import twitter from "../images/twitter.png";
 import linkedIn from "../images/linkedIn.png";
+import instagram from "../images/instagram.png";
 const Navigation = ({ setPage }) => {
   return (
     <header className="nav">
@@ -17,6 +18,11 @@ const Navigation = ({ setPage }) => {
           anchorLink={"https://www.linkedin.com/in/adam-mills-74274a198/"}
           src={linkedIn}
           name={"LinkedIn Logo"}
+        />
+        <SocialLink
+          anchorLink={"https://www.instagram.com"}
+          src={instagram}
+          name={"Instagram logo"}
         />
       </div>
       <nav>

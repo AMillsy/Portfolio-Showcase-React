@@ -1,11 +1,11 @@
 import portfolioImage from "../images/portfolioSplit1.png";
-
+import "../styles/PortfolioSection.css";
 const PortfolioSection = () => {
   return (
-    <a>
-      <h2>Title</h2>
+    <a className="portfolioCard">
+      <h2>Find that Place</h2>
       <h3>Date created</h3>
-      <img src={portfolioImage}></img>
+      <img className="portfolioImage" src={portfolioImage}></img>
     </a>
   );
 };
