@@ -14,13 +14,16 @@ const PortfolioSection = ({
       <div className="portfolioDescription">
         <div className="cardDesc">
           <h2 className="cardTitle">{title}</h2>
-          <h3 className="cardDate">{date}</h3>
+          <h3 className="cardDate">Created: {date}</h3>
 
           <div className="linkContainer">
-            <a href={externalSrc}>
-              <img src={externalLink} className="links"></img>
-            </a>
-            <a href={githubLink}>
+            {externalSrc && (
+              <a href={externalSrc} target="_blank">
+                <img src={externalLink} className="links"></img>
+              </a>
+            )}
+
+            <a href={githubLink} target="_blank">
               <img src={githubImage} className="links"></img>
             </a>
           </div>
