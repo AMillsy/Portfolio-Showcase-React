@@ -1,13 +1,16 @@
 .portfolioCard {
-  width: 40%;
+  width: 35%;
   display: flex;
   height: 400px;
   flex-direction: column;
   margin: 10px;
-  border: 2px black solid;
-  padding: 20px;
-  box-shadow: 2px 2px grey;
-
+  border: 0px black solid;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  overflow: hidden;
+  position: relative;
   transition: all 0.2s ease-in-out;
 }
 
@@ -18,6 +21,55 @@
 
 .portfolioImage {
   width: 100%;
-  height: 70%;
+  height: 100%;
   object-fit: cover;
+}
+
+.portfolioDescription {
+  position: absolute;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    36deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(16, 16, 154, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  height: 200px;
+  bottom: -30px;
+  left: 5px;
+  color: white;
+  border-top-left-radius: 5rem;
+  transform: rotate(5deg);
+}
+
+.cardTitle {
+  margin: 10px;
+}
+
+.cardDate {
+  margin: 15px;
+  font-size: 90%;
+}
+
+.cardDesc {
+  margin: 20px;
+  margin-top: 30px;
+  transform: rotate(-5deg);
+  position: relative;
+}
+
+.linkContainer {
+  position: absolute;
+  right: 20px;
+  margin: -20px;
+}
+.links {
+  width: 40px;
+  margin: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.links:hover {
+  transform: scale(1.1);
 }
