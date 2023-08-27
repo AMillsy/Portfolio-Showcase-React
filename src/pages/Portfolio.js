@@ -37,7 +37,7 @@ const Portfolio = () => {
     {
       imageSrc: regularExpression,
       title: "Regular Expression Article",
-      date: "",
+      date: "14th August 2023",
       externalSrc: "",
       githubLink:
         "https://gist.github.com/AMillsy/91aab11b66c41df04f798c33b71d39ba",
