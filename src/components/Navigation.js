@@ -3,7 +3,8 @@ import SocialLink from "./SocialLink";
 import twitter from "../images/twitter.png";
 import linkedIn from "../images/linkedIn.png";
 import instagram from "../images/instagram.png";
-const Navigation = ({ setPage }) => {
+const Navigation = ({ setPage, page }) => {
+  console.log(page);
   return (
     <header className="nav">
       <h1>ADAM</h1>
@@ -28,27 +29,47 @@ const Navigation = ({ setPage }) => {
       <nav>
         <ul className="nav-list">
           <li key={"home"}>
-            <a href="#home" onClick={() => setPage("Home")}>
+            <a
+              href="#home"
+              onClick={() => setPage("Home")}
+              className={page === "Home" ? "active" : ""}
+            >
               Home
             </a>
           </li>
           <li key={"portfolio"}>
-            <a href="#portfolio" onClick={() => setPage("Portfolio")}>
+            <a
+              href="#portfolio"
+              onClick={() => setPage("Portfolio")}
+              className={page === "Portfolio" ? "active" : ""}
+            >
               Portfolio
             </a>
           </li>
           <li key={"resume"}>
-            <a href="#resume" onClick={() => setPage("Resume")}>
+            <a
+              href="#resume"
+              onClick={() => setPage("Resume")}
+              className={page === "Resume" ? "active" : ""}
+            >
               Resume
             </a>
           </li>
           <li key={"contact"}>
-            <a href="#contact" onClick={() => setPage("Contacts")}>
+            <a
+              href="#contact"
+              onClick={() => setPage("Contacts")}
+              className={page === "Contacts" ? "active" : ""}
+            >
               Contacts
             </a>
           </li>
           <li key={"about-me"}>
-            <a href="#about-me" onClick={() => setPage("About me")}>
+            <a
+              href="#about-me"
+              onClick={() => setPage("About me")}
+              className={page === "About me" ? "active" : ""}
+            >
               About Me
             </a>
           </li>

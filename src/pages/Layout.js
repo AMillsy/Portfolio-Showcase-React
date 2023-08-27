@@ -1,9 +1,9 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-const Layout = function ({ children, setPage }) {
+const Layout = function ({ children, setPage, page }) {
   return (
     <>
-      <Navigation setPage={setPage} />
+      <Navigation setPage={setPage} page={page} />
       {children}
       <Footer />
     </>

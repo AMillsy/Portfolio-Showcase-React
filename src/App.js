@@ -36,7 +36,11 @@ function App() {
     }
   }
 
-  return <Layout setPage={setNewPage}>{displayCurrentPage()}</Layout>;
+  return (
+    <Layout setPage={setNewPage} page={currentPage}>
+      {displayCurrentPage()}
+    </Layout>
+  );
 }
 
 export default App;
