@@ -1,7 +1,12 @@
 import "../styles/Contact.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 const Contact = () => {
+  useEffect(() => {});
   const [data, setData] = useState({ name: "", email: "", message: "" });
+
+  const [errorList, setErrorList] = useState();
+  let errorMessage = [];
 
   const changeData = (e) => {
     const { name, value } = e.target;
@@ -9,11 +14,42 @@ const Contact = () => {
     setData({ ...data, [name]: value });
     return;
   };
+
+  const checkData = () => {
+    errorMessage = [];
+    setErrorList(null);
+    if (!(data.name || data.email || data.message)) return;
+
+    const re = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (!data.name) {
+      errorMessage.push("Please Enter name");
+    }
+    if (!data.email) {
+      errorMessage.push("Please enter an email");
+    } else if (!re.test(data.email)) {
+      errorMessage.push("Please enter a correct email");
+    }
+    if (!data.message) {
+      errorMessage.push("Please enter a message");
+    }
+
+    displayError(errorMessage);
+  };
+
+  const displayError = () => {
+    setErrorList(
+      errorMessage.map((value) => {
+        return <li>{value}</li>;
+      })
+    );
+    console.log(errorList);
+  };
   return (
     <section className="contactSection">
       <h2 className="contactTitle">Contact</h2>
 
-      <div className="formContainer">
+      <div className="formContainer" onBlur={() => checkData()}>
         <div>
           <label className="labelName">Your name</label>
           <input
@@ -47,7 +83,7 @@ const Contact = () => {
           Send Message
         </button>
 
-        <p className="error"></p>
+        <ul className="error">{errorList}</ul>
       </div>
     </section>
   );
