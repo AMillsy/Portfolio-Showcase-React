@@ -18,11 +18,38 @@
 }
 .resumeList li {
   font-weight: bold;
+  height: 50px;
+  margin: 10px;
+  width: 200px;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
+.resumeList li div {
+  position: absolute;
+  background-color: #121212a2;
+  transition: all 0.1s ease-in-out;
+  display: none;
+}
+
+.resumeList li:hover div {
+  display: block;
+}
 .resumeTitle {
   font-size: 300%;
   font-family: "Libre Baskerville", serif;
   border-bottom: 2px solid black;
   width: 100%;
+}
+
+.innerLists {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
