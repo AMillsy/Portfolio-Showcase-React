@@ -14,15 +14,15 @@ const AboutMe = () => {
             Birmingham studying Full stack Web Development
           </p>
           <p className="contents">
-            I will be finishing my course early October and have been doing full
-            stack web Development learning technologies like React, Bootstrap
-            and JQuery for the frontend and MySQL, Express, Node, MongoDB and
-            many more for the backend. I love learning about new technologies
-            and have setup AWS S3 storage for previous project called Visual
-            Vault.
+            I will be finishing my course in early October and have been doing
+            full stack web Development learning technologies like React,
+            Bootstrap and JQuery for the frontend and MySQL, Express, Node,
+            MongoDB and many more for the backend. I love learning about new
+            technologies and have setup AWS S3 storage for previous project
+            called Visual Vault.
           </p>
           <p className="contents">
-            I hope to get a job in the industry and create amazing website, I
+            I hope to get a job in the industry and create an amazing website, I
             enjoy doing the backend for websites the most because of the thrill
             of finally getting that database to post to the frontend.
           </p>
