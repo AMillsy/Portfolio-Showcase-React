@@ -28,7 +28,7 @@ const Contact = () => {
     if (!data.email) {
       errorMessage.push("Please enter an email");
     } else if (!re.test(data.email)) {
-      errorMessage.push("Please enter a correct email");
+      errorMessage.push("Invalid Email");
     }
     if (!data.message) {
       errorMessage.push("Please enter a message");
