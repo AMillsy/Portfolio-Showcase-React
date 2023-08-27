@@ -9,7 +9,7 @@ const PortfolioSection = ({
   githubLink,
 }) => {
   return (
-    <a className="portfolioCard" href="#">
+    <button className="portfolioCard" href="#">
       <img className="portfolioImage" src={imageSrc} alt={title}></img>
       <div className="portfolioDescription">
         <div className="cardDesc">
@@ -18,18 +18,22 @@ const PortfolioSection = ({
 
           <div className="linkContainer">
             {externalSrc && (
-              <a href={externalSrc} target="_blank">
-                <img src={externalLink} className="links"></img>
+              <a href={externalSrc} target="_blank" rel="noreferrer">
+                <img
+                  src={externalLink}
+                  className="links"
+                  alt="External Link"
+                ></img>
               </a>
             )}
 
-            <a href={githubLink} target="_blank">
-              <img src={githubImage} className="links"></img>
+            <a href={githubLink} target="_blank" rel="noreferrer">
+              <img src={githubImage} className="links" alt="github"></img>
             </a>
           </div>
         </div>
       </div>
-    </a>
+    </button>
   );
 };
 
