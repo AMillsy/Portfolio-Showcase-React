@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Showcase-React/static/css/main.cae56697.css",
+    "main.js": "/Portfolio-Showcase-React/static/js/main.7537c0ce.js",
+    "static/js/787.1de67672.chunk.js": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js",
+    "static/media/portfolioSplit2.png": "/Portfolio-Showcase-React/static/media/portfolioSplit2.4c721db235640c1dc811.png",
+    "static/media/portfolioSplit1.png": "/Portfolio-Showcase-React/static/media/portfolioSplit1.c1fa9f0ab263691c7ede.png",
+    "static/media/Portrait.png": "/Portfolio-Showcase-React/static/media/Portrait.b99cdbbf5e3ac5ec2ef6.png",
+    "static/media/aboutMe1.jpg": "/Portfolio-Showcase-React/static/media/aboutMe1.6174600207e16b6ff9cf.jpg",
+    "static/media/resumeSplit1.png": "/Portfolio-Showcase-React/static/media/resumeSplit1.348f6c2a22d15e5af34a.png",
+    "static/media/resumeSplit2.png": "/Portfolio-Showcase-React/static/media/resumeSplit2.aa6844406f8d69230e4c.png",
+    "static/media/blogCMS.png": "/Portfolio-Showcase-React/static/media/blogCMS.e797b015ced993393b0a.png",
+    "static/media/cv.pdf": "/Portfolio-Showcase-React/static/media/cv.3d50955d84b7cadad066.pdf",
+    "static/media/aboutMe2.jpg": "/Portfolio-Showcase-React/static/media/aboutMe2.6ec48f2c56a6b7d4868d.jpg",
+    "static/media/regularExpression.png": "/Portfolio-Showcase-React/static/media/regularExpression.f972c2fe7d1c93c48989.png",
+    "static/media/noSqlDatabase.png": "/Portfolio-Showcase-React/static/media/noSqlDatabase.6c42b5db8112ab4c429a.png",
+    "static/media/contactSplit2.jpg": "/Portfolio-Showcase-React/static/media/contactSplit2.726129eaa0642aa1117e.jpg",
+    "static/media/contactSplit1.jpg": "/Portfolio-Showcase-React/static/media/contactSplit1.607c1387d90162445c80.jpg",
+    "static/media/instagram.png": "/Portfolio-Showcase-React/static/media/instagram.459d14acdbfb7db227e0.png",
+    "static/media/sqlQuery.png": "/Portfolio-Showcase-React/static/media/sqlQuery.f91628107abf0fe1aaa2.png",
+    "static/media/linkedIn.png": "/Portfolio-Showcase-React/static/media/linkedIn.dfa9f1e7195e9f7af9b8.png",
+    "static/media/github.png": "/Portfolio-Showcase-React/static/media/github.987334e9f782cc505f25.png",
+    "static/media/externalLink.png": "/Portfolio-Showcase-React/static/media/externalLink.0d4863673b6bf5cf1056.png",
+    "index.html": "/Portfolio-Showcase-React/index.html",
+    "main.cae56697.css.map": "/Portfolio-Showcase-React/static/css/main.cae56697.css.map",
+    "main.7537c0ce.js.map": "/Portfolio-Showcase-React/static/js/main.7537c0ce.js.map",
+    "787.1de67672.chunk.js.map": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae56697.css",
+    "static/js/main.7537c0ce.js"
+  ]
+}
