@@ -6,6 +6,7 @@ import { useState } from "react";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   const [currentPage, setPage] = useState("Home");
@@ -29,7 +30,7 @@ function App() {
         return <Contact />;
 
       case "About me":
-        return; //About me page
+        return <AboutMe />;
 
       default:
         return <Home />;
