@@ -1,0 +1,54 @@
+.contactTitle {
+  font-size: 300%;
+  font-family: "Libre Baskerville", serif;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.contactSection {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#message {
+  width: 60%;
+  height: 200px;
+}
+
+#email {
+  width: 20%;
+}
+
+#name {
+  width: 20%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+}
+
+.btnMessage {
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 1rem;
+  font-weight: bolder;
+  transition: all 0.1s ease-in-out;
+}
+
+.btnMessage:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

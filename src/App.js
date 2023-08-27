@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import { useState } from "react";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 function App() {
   const [currentPage, setPage] = useState("Home");
@@ -25,7 +26,7 @@ function App() {
         return <Resume />;
 
       case "Contacts":
-        return; //Contact page
+        return <Contact />;
 
       case "About me":
         return; //About me page
