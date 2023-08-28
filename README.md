@@ -4,7 +4,10 @@ Portfolio showcase of all my recent works using react
 
 ## Table of Content
 
-- [Website]
+- [Website](#website)
+- [User Story & Acceptance Criteria](#user-story)
+- [Description](#description)
+- [Usage](#usage)
 
 ## Website
 
