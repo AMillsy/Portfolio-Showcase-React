@@ -26,6 +26,10 @@
   width: 100%;
 }
 
+#subject {
+  width: 100%;
+}
+
 .formContainer label {
   margin: 5px 0px;
 }
@@ -70,4 +74,8 @@
 
 .error {
   color: red;
+}
+
+.successContact {
+  color: green;
 }

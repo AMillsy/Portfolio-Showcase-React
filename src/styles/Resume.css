@@ -19,7 +19,7 @@
 }
 .resumeList li {
   font-weight: bold;
-  height: 80px;
+  height: 100px;
   margin: 10px;
   width: 20%;
   background: rgb(2, 0, 36);
@@ -68,7 +68,9 @@
 .innerLists {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  columns: 3;
+  min-height: 600px;
+  max-height: 700px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
