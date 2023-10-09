@@ -83,9 +83,10 @@ const Portfolio = () => {
         }}
       >
         {portfolioCards.map(
-          ({ imageSrc, title, date, externalSrc, githubLink }) => {
+          ({ imageSrc, title, date, externalSrc, githubLink }, i) => {
             return (
               <PortfolioSection
+                key={i}
                 imageSrc={imageSrc}
                 title={title}
                 date={date}

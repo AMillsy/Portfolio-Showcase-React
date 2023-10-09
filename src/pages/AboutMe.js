@@ -1,12 +1,13 @@
 import "../styles/AboutMe.css";
 import portrait from "../images/Portrait.png";
+import me from "../images/me.jpg";
 const AboutMe = () => {
   return (
     <section className="aboutSection">
       <h2 className="aboutTitle">About Me</h2>
       <div className="aboutContents">
         <div className="portraitContainer">
-          <img src={portrait} className="portrait" alt="portrait"></img>
+          <img src={me} className="portrait" alt="portrait"></img>
         </div>
         <div className="textContents">
           <p className="bold">
