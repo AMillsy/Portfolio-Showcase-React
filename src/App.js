@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import AboutMe from "./pages/AboutMe";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   const [currentPage, setPage] = useState("Home");
@@ -16,27 +16,27 @@ function App() {
     setPage(page);
   }
 
-  function displayCurrentPage() {
-    switch (currentPage) {
-      case "Home":
-        return <Home setPage={setNewPage} />;
+  // function displayCurrentPage() {
+  //   switch (currentPage) {
+  //     case "Home":
+  //       return <Home setPage={setNewPage} />;
 
-      case "Portfolio":
-        return <Portfolio />;
+  //     case "Portfolio":
+  //       return <Portfolio />;
 
-      case "Resume":
-        return <Resume />;
+  //     case "Resume":
+  //       return <Resume />;
 
-      case "Contacts":
-        return <Contact />;
+  //     case "Contacts":
+  //       return <Contact />;
 
-      case "About me":
-        return <AboutMe />;
+  //     case "About me":
+  //       return <AboutMe />;
 
-      default:
-        return <Home />;
-    }
-  }
+  //     default:
+  //       return <Home />;
+  //   }
+  // }
 
   return (
     <HashRouter>
