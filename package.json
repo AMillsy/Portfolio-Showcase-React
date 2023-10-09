@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react-app",
   "version": "0.1.0",
-  "homepage": "https://AMillsy.github.io/",
+  "homepage": "https://AMillsy.github.io/Portfolio-Showcase-React",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
