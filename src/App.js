@@ -47,6 +47,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
