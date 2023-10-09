@@ -4,8 +4,20 @@ import twitter from "../images/twitter.png";
 import linkedIn from "../images/linkedIn.png";
 import instagram from "../images/instagram.png";
 import github from "../images/github.png";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 const Navigation = ({ setPage, page }) => {
-  console.log(page);
+  const [currentPage, setCurrentPage] = useState("");
+
+  const location = useLocation();
+
+  useEffect(
+    function () {
+      setCurrentPage(location.pathname);
+    },
+    [location]
+  );
+
   return (
     <header className="nav">
       <h1>ADAM</h1>
@@ -30,49 +42,41 @@ const Navigation = ({ setPage, page }) => {
       <nav>
         <ul className="nav-list">
           <li key={"home"}>
-            <a
-              href="#home"
-              onClick={() => setPage("Home")}
-              className={page === "Home" ? "active" : ""}
-            >
+            <Link to={"/"} className={currentPage === "/" ? "active" : ""}>
               Home
-            </a>
+            </Link>
           </li>
           <li key={"portfolio"}>
-            <a
-              href="#portfolio"
-              onClick={() => setPage("Portfolio")}
-              className={page === "Portfolio" ? "active" : ""}
+            <Link
+              to={"/portfolio"}
+              className={currentPage === "/portfolio" ? "active" : ""}
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li key={"resume"}>
-            <a
-              href="#resume"
-              onClick={() => setPage("Resume")}
-              className={page === "Resume" ? "active" : ""}
+            <Link
+              to={"/resume"}
+              className={currentPage === "/resume" ? "active" : ""}
             >
               Resume
-            </a>
+            </Link>
           </li>
           <li key={"contact"}>
-            <a
-              href="#contact"
-              onClick={() => setPage("Contacts")}
-              className={page === "Contacts" ? "active" : ""}
+            <Link
+              to={"contact"}
+              className={currentPage === "/contact" ? "active" : ""}
             >
               Contacts
-            </a>
+            </Link>
           </li>
           <li key={"about-me"}>
-            <a
-              href="#about-me"
-              onClick={() => setPage("About me")}
-              className={page === "About me" ? "active" : ""}
+            <Link
+              to={"/about-me"}
+              className={currentPage === "/about-me" ? "active" : ""}
             >
               About Me
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
