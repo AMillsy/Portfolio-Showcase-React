@@ -10,16 +10,15 @@ const AboutMe = () => {
         </div>
         <div className="textContents">
           <p className="bold">
-            I am Adam Mills, a student bootcamp studying at University of
+            I am Adam Mills, I have completed a bootcamp at the University of
             Birmingham studying Full stack Web Development
           </p>
           <p className="contents">
-            I will be finishing my course in early October and have been doing
-            full stack web Development learning technologies like React,
-            Bootstrap and JQuery for the frontend and MySQL, Express, Node,
-            MongoDB and many more for the backend. I love learning about new
-            technologies and have setup AWS S3 storage for previous project
-            called Visual Vault.
+            I have finished my course and have been doing full stack web
+            Development learning technologies like React, Bootstrap and JQuery
+            for the frontend and MySQL, Express, Node, MongoDB and many more for
+            the backend. I love learning about new technologies and have setup
+            AWS S3 storage for previous project called Visual Vault.
           </p>
           <p className="contents">
             I hope to get a job in the industry and create an amazing website, I
