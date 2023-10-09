@@ -3,6 +3,7 @@ import SocialLink from "./SocialLink";
 import twitter from "../images/twitter.png";
 import linkedIn from "../images/linkedIn.png";
 import instagram from "../images/instagram.png";
+import github from "../images/github.png";
 const Navigation = ({ setPage, page }) => {
   console.log(page);
   return (
@@ -10,20 +11,20 @@ const Navigation = ({ setPage, page }) => {
       <h1>ADAM</h1>
       <h1 className="lastName">MILLS</h1>
       <div className="socials">
-        <SocialLink
+        {/* <SocialLink
           anchorLink={"https://twitter.com/home"}
           src={twitter}
           name={"Twitter logo"}
-        />
+        /> */}
         <SocialLink
           anchorLink={"https://www.linkedin.com/in/adam-mills-74274a198/"}
           src={linkedIn}
           name={"LinkedIn Logo"}
         />
         <SocialLink
-          anchorLink={"https://www.instagram.com"}
-          src={instagram}
-          name={"Instagram logo"}
+          anchorLink={"https://github.com/AMillsy"}
+          src={github}
+          name={"Github logo"}
         />
       </div>
       <nav>
