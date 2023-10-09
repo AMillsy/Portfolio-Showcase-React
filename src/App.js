@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import AboutMe from "./pages/AboutMe";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   const [currentPage, setPage] = useState("Home");
@@ -39,7 +39,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -50,7 +50,7 @@ function App() {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
