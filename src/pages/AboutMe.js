@@ -27,8 +27,8 @@ const AboutMe = () => {
             of finally getting that database to post to the frontend.
           </p>
           <p className="contents">
-            Out of coding, you will find me engrossed in Video games or playing
-            sports.
+            Out of coding, you will find me engrossed in Baking, Video games or
+            maybe down the gym.
           </p>
         </div>
       </div>
