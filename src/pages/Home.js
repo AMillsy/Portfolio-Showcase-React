@@ -15,30 +15,34 @@ const Home = ({ setPage }) => {
       backgroundColour: "grey",
       splitImage1: portfolioImage1,
       splitImage2: portfolioImage2,
+      link: "/portfolio",
     },
     {
       name: "Resume",
       backgroundColour: "#CDC392",
       splitImage1: resumeSplit1,
       splitImage2: resumeSplit2,
+      link: "/resume",
     },
     {
-      name: "Contacts",
+      name: "Contact",
       backgroundColour: "#648DE5",
       splitImage1: contactSplit1,
       splitImage2: contactSplit2,
+      link: "/contact",
     },
     {
       name: "About me",
       backgroundColour: "#210124",
       splitImage1: aboutMeSplit1,
       splitImage2: aboutMeSplit2,
+      link: "/about-me",
     },
   ];
   return (
     <>
       {splitters.map(
-        ({ name, backgroundColour, splitImage1, splitImage2 }, i) => {
+        ({ name, backgroundColour, splitImage1, splitImage2, link }, i) => {
           return (
             <Splitter
               key={i}
@@ -48,6 +52,7 @@ const Home = ({ setPage }) => {
               splitImage2={splitImage2}
               currentSection={i}
               setPage={setPage}
+              link={link}
             />
           );
         }

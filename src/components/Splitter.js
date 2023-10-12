@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Splitter.css";
 
 const Splitter = ({
@@ -7,6 +8,7 @@ const Splitter = ({
   splitImage2,
   currentSection,
   setPage,
+  link,
 }) => {
   function displayCorrectSection() {
     const sectionType = currentSection % 2;
@@ -69,9 +71,9 @@ const Splitter = ({
   }
 
   return (
-    <a className="splitter" onClick={() => setPage(name)} href={`#${name}`}>
+    <Link className="splitter" to={link}>
       {displayCorrectSection()}
-    </a>
+    </Link>
   );
 };
 

@@ -67,7 +67,7 @@ const Navigation = ({ setPage, page }) => {
               to={"contact"}
               className={currentPage === "/contact" ? "active" : ""}
             >
-              Contacts
+              Contact
             </Link>
           </li>
           <li key={"about-me"}>
