@@ -6,8 +6,15 @@ import blogCMS from "../images/blogCMS.png";
 import regularExpression from "../images/regularExpression.png";
 import sqlQuery from "../images/sqlQuery.png";
 import runDev from "../images/runDev.png";
+import TalkTide from "../images/TalkTide.png";
 const Portfolio = () => {
   const portfolioCards = [
+    {
+      imageSrc: TalkTide,
+      title: "Talk Tide",
+      externalSrc: "https://talktide-4335d8586286.herokuapp.com/",
+      githubLink: "https://github.com/AMillsy/TalkTide---React-Messenger",
+    },
     {
       imageSrc: runDev,
       title: "RunDev",
