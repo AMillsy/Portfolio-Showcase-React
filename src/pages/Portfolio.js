@@ -82,6 +82,7 @@ const Portfolio = () => {
           Projects
         </h2>
       </div>
+
       <section
         style={{
           display: "flex",
