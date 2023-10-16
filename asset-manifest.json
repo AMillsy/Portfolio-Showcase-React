@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Showcase-React/static/css/main.14d2d861.css",
-    "main.js": "/Portfolio-Showcase-React/static/js/main.066ca22a.js",
+    "main.js": "/Portfolio-Showcase-React/static/js/main.fc3a5068.js",
     "static/js/787.1de67672.chunk.js": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js",
     "static/media/runDev.png": "/Portfolio-Showcase-React/static/media/runDev.806da58c0daa3280cf78.png",
     "static/media/portfolioSplit2.png": "/Portfolio-Showcase-React/static/media/portfolioSplit2.4c721db235640c1dc811.png",
@@ -16,6 +16,7 @@
     "static/media/regularExpression.png": "/Portfolio-Showcase-React/static/media/regularExpression.f972c2fe7d1c93c48989.png",
     "static/media/cv.pdf": "/Portfolio-Showcase-React/static/media/cv.ad12c9507e6c4e64d16b.pdf",
     "static/media/noSqlDatabase.png": "/Portfolio-Showcase-React/static/media/noSqlDatabase.6c42b5db8112ab4c429a.png",
+    "static/media/TalkTide.png": "/Portfolio-Showcase-React/static/media/TalkTide.45f1c98745e1a0768299.png",
     "static/media/contactSplit2.jpg": "/Portfolio-Showcase-React/static/media/contactSplit2.726129eaa0642aa1117e.jpg",
     "static/media/contactSplit1.jpg": "/Portfolio-Showcase-React/static/media/contactSplit1.607c1387d90162445c80.jpg",
     "static/media/instagram.png": "/Portfolio-Showcase-React/static/media/instagram.459d14acdbfb7db227e0.png",
@@ -25,11 +26,11 @@
     "static/media/externalLink.png": "/Portfolio-Showcase-React/static/media/externalLink.0d4863673b6bf5cf1056.png",
     "index.html": "/Portfolio-Showcase-React/index.html",
     "main.14d2d861.css.map": "/Portfolio-Showcase-React/static/css/main.14d2d861.css.map",
-    "main.066ca22a.js.map": "/Portfolio-Showcase-React/static/js/main.066ca22a.js.map",
+    "main.fc3a5068.js.map": "/Portfolio-Showcase-React/static/js/main.fc3a5068.js.map",
     "787.1de67672.chunk.js.map": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14d2d861.css",
-    "static/js/main.066ca22a.js"
+    "static/js/main.fc3a5068.js"
   ]
 }
