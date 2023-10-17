@@ -14,6 +14,7 @@ const Portfolio = () => {
       title: "Talk Tide",
       externalSrc: "https://talktide-4335d8586286.herokuapp.com/",
       githubLink: "https://github.com/AMillsy/TalkTide---React-Messenger",
+      inProgress: true,
     },
     {
       imageSrc: runDev,
@@ -91,7 +92,10 @@ const Portfolio = () => {
         }}
       >
         {portfolioCards.map(
-          ({ imageSrc, title, date, externalSrc, githubLink }, i) => {
+          (
+            { imageSrc, title, date, externalSrc, githubLink, inProgress },
+            i
+          ) => {
             return (
               <PortfolioSection
                 key={i}
@@ -100,6 +104,7 @@ const Portfolio = () => {
                 date={date}
                 externalSrc={externalSrc}
                 githubLink={githubLink}
+                inProgress={inProgress}
               />
             );
           }

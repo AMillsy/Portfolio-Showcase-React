@@ -7,9 +7,11 @@ const PortfolioSection = ({
   date,
   externalSrc,
   githubLink,
+  inProgress,
 }) => {
   return (
     <button className="portfolioCard" href="#">
+      {inProgress && <p className="cardWork">Working on currently</p>}
       <img className="portfolioImage" src={imageSrc} alt={title}></img>
       <div className="portfolioDescription">
         <div className="cardDesc">

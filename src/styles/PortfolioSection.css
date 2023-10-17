@@ -75,6 +75,17 @@
   transform: scale(1.1);
 }
 
+.cardWork {
+  position: absolute;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 140%;
+  font-style: italic;
+  right: 0;
+  color: white;
+  background-color: rgba(133, 0, 0, 0.651);
+  padding: 10px;
+}
 @media only screen and (max-width: 1000px) {
   .portfolioCard {
     width: 80%;
