@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio-Showcase-React/static/css/main.fdeaf6ec.css",
-    "main.js": "/Portfolio-Showcase-React/static/js/main.a38477eb.js",
+    "main.css": "/Portfolio-Showcase-React/static/css/main.983b8e83.css",
+    "main.js": "/Portfolio-Showcase-React/static/js/main.f44f153a.js",
     "static/js/787.1de67672.chunk.js": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js",
     "static/media/runDev.png": "/Portfolio-Showcase-React/static/media/runDev.806da58c0daa3280cf78.png",
     "static/media/portfolioSplit2.png": "/Portfolio-Showcase-React/static/media/portfolioSplit2.4c721db235640c1dc811.png",
     "static/media/portfolioSplit1.png": "/Portfolio-Showcase-React/static/media/portfolioSplit1.c1fa9f0ab263691c7ede.png",
     "static/media/Portrait.png": "/Portfolio-Showcase-React/static/media/Portrait.b99cdbbf5e3ac5ec2ef6.png",
-    "static/media/cv.pdf": "/Portfolio-Showcase-React/static/media/cv.b3c738f453f73115232a.pdf",
     "static/media/aboutMe1.jpg": "/Portfolio-Showcase-React/static/media/aboutMe1.6174600207e16b6ff9cf.jpg",
     "static/media/me.jpg": "/Portfolio-Showcase-React/static/media/me.dd6c4af1a8cfb2abb5df.jpg",
     "static/media/resumeSplit1.png": "/Portfolio-Showcase-React/static/media/resumeSplit1.348f6c2a22d15e5af34a.png",
     "static/media/resumeSplit2.png": "/Portfolio-Showcase-React/static/media/resumeSplit2.aa6844406f8d69230e4c.png",
     "static/media/blogCMS.png": "/Portfolio-Showcase-React/static/media/blogCMS.e797b015ced993393b0a.png",
     "static/media/aboutMe2.jpg": "/Portfolio-Showcase-React/static/media/aboutMe2.6ec48f2c56a6b7d4868d.jpg",
+    "static/media/cv.pdf": "/Portfolio-Showcase-React/static/media/cv.0d5c15c8cf2633f9fa54.pdf",
     "static/media/regularExpression.png": "/Portfolio-Showcase-React/static/media/regularExpression.f972c2fe7d1c93c48989.png",
     "static/media/noSqlDatabase.png": "/Portfolio-Showcase-React/static/media/noSqlDatabase.6c42b5db8112ab4c429a.png",
     "static/media/TalkTide.png": "/Portfolio-Showcase-React/static/media/TalkTide.45f1c98745e1a0768299.png",
@@ -25,12 +25,12 @@
     "static/media/github.png": "/Portfolio-Showcase-React/static/media/github.987334e9f782cc505f25.png",
     "static/media/externalLink.png": "/Portfolio-Showcase-React/static/media/externalLink.0d4863673b6bf5cf1056.png",
     "index.html": "/Portfolio-Showcase-React/index.html",
-    "main.fdeaf6ec.css.map": "/Portfolio-Showcase-React/static/css/main.fdeaf6ec.css.map",
-    "main.a38477eb.js.map": "/Portfolio-Showcase-React/static/js/main.a38477eb.js.map",
+    "main.983b8e83.css.map": "/Portfolio-Showcase-React/static/css/main.983b8e83.css.map",
+    "main.f44f153a.js.map": "/Portfolio-Showcase-React/static/js/main.f44f153a.js.map",
     "787.1de67672.chunk.js.map": "/Portfolio-Showcase-React/static/js/787.1de67672.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdeaf6ec.css",
-    "static/js/main.a38477eb.js"
+    "static/css/main.983b8e83.css",
+    "static/js/main.f44f153a.js"
   ]
 }
