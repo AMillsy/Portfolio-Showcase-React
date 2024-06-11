@@ -1,4 +1,4 @@
-import "./styles/Styles.css";
+import "./styles/styles.css";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 

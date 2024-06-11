@@ -77,10 +77,10 @@
 }
 
 .download {
-  background-color: blue;
+  background-color: darkblue;
   padding: 15px;
-  border-radius: 1rem;
-  text-decoration: underline;
+  border-radius: 0.75rem;
+  font-weight: bolder;
   transition: all 0.05s ease-in-out;
 }
 .download:hover {

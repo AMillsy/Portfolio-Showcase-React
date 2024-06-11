@@ -54,10 +54,9 @@ const Resume = () => {
           <li>
             Bootstrap
             <div>
-              <p>Skill: Novice</p>
+              <p>Skill: Advanced</p>
               <p>
-                I have had a contact with this library and have used it a couple
-                times
+                I used this most days when developing website, but like to use my own styles as well as these can get too basic.
               </p>
             </div>
           </li>
@@ -68,6 +67,24 @@ const Resume = () => {
               <p>
                 I have used this for personal project and is used to create this
                 project as well
+              </p>
+            </div>
+          </li>
+          <li>
+            C# (Maui Framework)
+            <div>
+              <p>Skill: Intermediate</p>
+              <p>
+                I have used this to develop mobile applications that are used by a multitude of users.
+              </p>
+            </div>
+          </li>
+          <li>
+            VueJS
+            <div>
+              <p>Skill: Advanced</p>
+              <p>
+                Used everyday to develop complex UIs    
               </p>
             </div>
           </li>
@@ -164,6 +181,24 @@ const Resume = () => {
               <p>
                 Used this in the Visual Vault Project to store all the images
                 that the client sent in.
+              </p>
+            </div>
+          </li>
+          <li>
+            ASP.NET
+            <div>
+              <p>Skill: Intermediate</p>
+              <p>
+               Developed endpoints for an existing API
+              </p>
+            </div>
+          </li>
+          <li>
+            JWTs
+            <div>
+              <p>Skill: Intermediate</p>
+              <p>
+               Developed a backend service with JWTs authentication and autherization.
               </p>
             </div>
           </li>

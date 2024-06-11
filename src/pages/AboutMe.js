@@ -11,24 +11,17 @@ const AboutMe = () => {
         </div>
         <div className="textContents">
           <p className="bold">
-            I am Adam Mills, I have completed a bootcamp at the University of
-            Birmingham studying Full stack Web Development
+            I am Adam Mills, I am Junior Fullstack Developer wanting to develop and learn more about the development world.
           </p>
           <p className="contents">
-            I have finished my course and have been doing full stack web
-            Development learning technologies like React, Bootstrap and JQuery
-            for the frontend and MySQL, Express, Node, MongoDB and many more for
-            the backend. I love learning about new technologies and have setup
-            AWS S3 storage for previous project called Visual Vault.
+            I have been working full time as a Junior Fullstack Developer since November 2023 and love developing and learning about the 
+            expanding technologies that have come into the development world.
           </p>
           <p className="contents">
-            I hope to get a job in the industry and create an amazing website, I
-            enjoy doing the backend for websites the most because of the thrill
-            of finally getting that database to post to the frontend.
+            I always want to expand my knowledge and always eager to create, design and implement technologies.
           </p>
           <p className="contents">
-            Out of coding, you will find me engrossed in Baking, Video games or
-            maybe down the gym.
+            Outside of coding, you will see my engrossed into Video games or Bouldering.
           </p>
         </div>
       </div>

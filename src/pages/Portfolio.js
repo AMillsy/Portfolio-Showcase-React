@@ -12,29 +12,25 @@ const Portfolio = () => {
     {
       imageSrc: TalkTide,
       title: "Talk Tide",
-      externalSrc: "https://talktide-4335d8586286.herokuapp.com/",
       githubLink: "https://github.com/AMillsy/TalkTide---React-Messenger",
-      inProgress: true,
+      date: "26th September 2023"
     },
     {
       imageSrc: runDev,
       title: "RunDev",
       date: "3rd September 2023",
-      externalSrc: "https://rundev-625acb8fef45.herokuapp.com/",
       githubLink: "https://github.com/AMillsy/RunDev",
     },
     {
       imageSrc: visualVault,
       title: "Visual Vault",
       date: "10th July 2023",
-      externalSrc: "https://visual-vault-70f24eab589d.herokuapp.com/",
       githubLink: "https://github.com/AMillsy/Visual-Vault",
     },
     {
       imageSrc: findThatPlace,
       title: "Find That Place",
       date: "11th May 2023",
-      externalSrc: "https://amillsy.github.io/Find-that-Place/",
       githubLink: "https://github.com/AMillsy/Find-that-Place",
     },
     {
@@ -47,7 +43,6 @@ const Portfolio = () => {
       imageSrc: blogCMS,
       title: "Blog CMS MVC",
       date: "7th July 2023",
-      externalSrc: "https://blogged-493c75ec6321.herokuapp.com",
       githubLink: "https://github.com/AMillsy/Blog-CMS-MVC",
     },
     {
