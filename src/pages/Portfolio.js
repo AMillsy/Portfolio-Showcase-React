@@ -13,19 +13,22 @@ const Portfolio = () => {
       imageSrc: TalkTide,
       title: "Talk Tide",
       githubLink: "https://github.com/AMillsy/TalkTide---React-Messenger",
-      date: "26th September 2023"
+      date: "26th September 2023",
+      externalSrc: "https://talktide-ee0f5a167e22.herokuapp.com/",
     },
     {
       imageSrc: runDev,
       title: "RunDev",
       date: "3rd September 2023",
       githubLink: "https://github.com/AMillsy/RunDev",
+      externalSrc: "https://run-dev-social-eab4e8511839.herokuapp.com/",
     },
     {
       imageSrc: visualVault,
       title: "Visual Vault",
       date: "10th July 2023",
       githubLink: "https://github.com/AMillsy/Visual-Vault",
+      externalSrc: "https://visual-vault-thing-de116f636f39.herokuapp.com/",
     },
     {
       imageSrc: findThatPlace,
